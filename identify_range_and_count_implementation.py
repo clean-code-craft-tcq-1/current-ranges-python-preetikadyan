@@ -8,7 +8,7 @@ def identify_range_and_count(list_of_nos):
     end=[]
     i=0
     ct=-1
-    pre= list_of_nos[0]-5 #to make sure that in the beginning it doesn't satisfy the if condition
+    pre= list_of_nos[0]-5 #to make sure that in the first itteration it doesn't satisfy the if condition and go to else
     
     while(i<len(list_of_nos)):
         if ((list_of_nos[i]-pre)<2):
