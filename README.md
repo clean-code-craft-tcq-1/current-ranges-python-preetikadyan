@@ -49,11 +49,16 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
   - I have added **main-workflow.yml** file to start the workflow from the file **current_range.test.py**
   - As of now I have not provided code coverage
   
-  ![image](https://user-images.githubusercontent.com/13776900/116265257-96b14680-a798-11eb-8ee8-d33d971b91b4.png)
+![image](https://user-images.githubusercontent.com/13776900/116265257-96b14680-a798-11eb-8ee8-d33d971b91b4.png)
 
 1. Write the smallest possible failing test.
 
 1. Write the minimum amount of code that'll make it pass.
+
+**Flow chart of the logic implemented**
+
+![image](https://user-images.githubusercontent.com/13776900/116407539-7db79c80-a84f-11eb-8669-80b9fa6848c1.png)
+
 
 1. Write the next failing test.
 
