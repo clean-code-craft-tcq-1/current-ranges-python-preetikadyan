@@ -8,7 +8,7 @@ class CurrentRangeTest(unittest.TestCase):
         ir.identify_range_and_count([3, 3, 5, 4, 10, 11, 12])
         
     def failing_test_range_and_count(self):    
-        ir.identify_range_and_count(['a'])
+        ir.identify_range_and_count([a])
 
 if __name__ == "__main__":
   unittest.main()
