@@ -57,7 +57,7 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 **Flow chart of the logic implemented**
 
-![image](https://user-images.githubusercontent.com/13776900/116407539-7db79c80-a84f-11eb-8669-80b9fa6848c1.png)
+![image](https://user-images.githubusercontent.com/13776900/116407945-e7d04180-a84f-11eb-8065-aafb3463d62d.png)
 
 
 1. Write the next failing test.
