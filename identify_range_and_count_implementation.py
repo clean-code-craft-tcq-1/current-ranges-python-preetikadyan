@@ -6,15 +6,15 @@ def identify_range_and_count(list_of_nos):
     count=[]
     strt=[]
     end=[]
+    result = []
     i=0
     ct=-1
     pre= list_of_nos[0]-5 
-    
+    length = len(list_of_nos)
     #in this logic I am comparing the current element with the previous element
     #First element doesn't have a previous value so i.e., why the initial previous contains a negative index
-    #to make sure that in the first itteration it doesn't satisfy the if condition and go to else
     
-    while(i<len(list_of_nos)):
+    while(i< length):
         if ((list_of_nos[i]-pre)<2): #whenever there is a range the difference of current and previous value is either '0'(when they are equal) or '1'
             count[ct]+=1
             end[ct]=list_of_nos[i]
@@ -30,4 +30,7 @@ def identify_range_and_count(list_of_nos):
     print("Range, Readings")
 
     for i in range(ct+1):
-        print(str(strt[i])+"-"+str(end[i])+", "+str(count[i]))
+        #print(str(strt[i])+"-"+str(end[i])+", "+str(count[i]))
+        result.append(str(strt[i])+"-"+str(end[i])+" "+str(count[i]))
+        
+    return result
